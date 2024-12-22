@@ -10,6 +10,7 @@ export const ProductList: React.FC<ProductListProps> = ({
   products,
   onOpenModal,
 }) => (
+  
   <div>
     {products.map((product) => (
       <div key={product.id} className="flex border p-2 justify-between">
